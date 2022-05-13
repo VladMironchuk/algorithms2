@@ -1,0 +1,108 @@
+name: task_30
+init: qStart
+accept: qFinal
+
+//1st symbol - 3
+qStart, 3
+q3, _, >
+
+q3, 3
+q3, 3, >
+
+q3, 2
+q3, 2, >
+
+q3, 1
+q3, 1, >
+
+q3, 0
+q3, 0, >
+
+q3, _
+q31, 1, >
+
+q31, _
+qBack, 1, <
+
+//1st symbol - 2
+qStart, 2
+q2, _, >
+
+q2, 3
+q2, 3, >
+
+q2, 2
+q2, 2, >
+
+q2, 1
+q2, 1, >
+
+q2, 0
+q2, 0, >
+
+q2, _
+q21, 1, >
+
+q21, _
+qBack, 0, <
+
+//1st symbol - 1
+qStart, 1
+q1, _, >
+
+q1, 3
+q1, 3, >
+
+q1, 2
+q1, 2, >
+
+q1, 1
+q1, 1, >
+
+q1, 0
+q1, 0, >
+
+q1, _
+q11, 0, >
+
+q11, _
+qBack, 1, <
+
+//1st symbol - 0
+qStart, 0
+q0, _, >
+
+q0, 3
+q0, 3, >
+
+q0, 2
+q0, 2, >
+
+q0, 1
+q0, 1, >
+
+q0, 0
+q0, 0, >
+
+q0, _
+q01, 0, >
+
+q01, _
+qBack, 0, <
+
+//back state
+qBack, 3
+qBack, 3, <
+
+qBack, 2
+qBack, 2, <
+
+qBack, 1
+qBack, 1, <
+
+qBack, 0
+qBack, 0, <
+
+qBack, _
+qStart, _, >
+

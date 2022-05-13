@@ -1,0 +1,24 @@
+name: task_10
+init: q0
+accept: qFinal
+
+q0, a
+q1, a, <
+
+q0, b
+q2, b, <
+
+q0, c
+q3, c, <
+
+q0, _
+qFinal, _, -
+
+q1, _
+qFinal, a, -
+
+q2, _
+qFinal, b, -
+
+q3, _
+qFinal, c, -
